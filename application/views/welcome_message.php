@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to Tell tale</title>
+	<title>Welcome to Hello world</title>
 	
 </head>
 <body>
@@ -15,7 +15,7 @@
                 ?>
 
             <br/>
-            <a href="<?=base_url()?>index.php/initiate">INITIATE A STORY</a>
+           
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>

@@ -7,10 +7,7 @@ class Welcome extends CI_Controller
                 $this->load->view('welcome_message');
 	}
 
-        public function post()
-        {
-                $this->load->view('post_view');
-        }
+       
 }
 
 /* End of file welcome.php */

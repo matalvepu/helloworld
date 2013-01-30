@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] =  $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
-$db['default']['username'] =$_ENV['OPENSHIFT_MYSQL_DB_USERNAME'];
-$db['default']['password'] = $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'];
-$db['default']['database'] = 'telltale';
+$db['default']['hostname'] = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
+$db['default']['username'] =  'admin';
+$db['default']['password'] = 'NUbe1XSzVWsq';
+$db['default']['database'] = 'helloworld';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
